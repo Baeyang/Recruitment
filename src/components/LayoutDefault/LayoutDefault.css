@@ -1,0 +1,27 @@
+.LayoutDefault__header{
+    border-bottom: #ddd 1px solid;
+    padding: 14px 0 ;
+    position: sticky;
+    background-color: white;
+
+}
+.LayoutDefault__header-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.LayoutDefault__logo{
+    font-size: 30px;
+    font-weight: 800;
+}
+.LayoutDefault__logo a{
+    text-decoration: none;
+}
+.LayoutDefault__main{
+    min-height: 100vh;
+    padding: 40px 0;
+}
+
+.LayoutDefault__icon button{
+    margin-left: 10px;
+}

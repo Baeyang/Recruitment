@@ -1,0 +1,97 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+:root{
+  --color-button : #d34127;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+a{
+  text-decoration: none!important;
+  color: inherit!important;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.container{
+  width: 100%;
+  padding: 0 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 576px){
+  .container{
+    max-width: 570px;
+  }
+}
+@media (min-width: 768px){
+  .container{
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px){
+  .container{
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px){
+  .container{
+    max-width: 1140px;
+  }
+}
+
+.mt-20{
+  margin-top: 20px;
+}
+
+.mt-10{
+  margin-top: 10px;
+}
+
+.mb-20{
+  margin-bottom: 20px;
+}
+
+.mb-10{
+  margin-bottom: 10px;
+}
+
+.ml-10{
+  margin-left: 10px;
+}
+
+.mr-10{
+  margin-right: 10px;
+}
+.button{
+  background-color: var(--color-button);
+  border: none;
+  color: white;
+  padding: 0 30px;
+  height: 50px;
+  font-weight: 350;
+}

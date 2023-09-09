@@ -1,0 +1,19 @@
+.Search__Form-Input input{
+    width: 100%;
+    padding-left: 10px;
+    height: 50px;
+    outline: none;
+}
+.Search__Form-Input select{
+    height: 50px;
+    outline: none;
+    width: 100%;
+    padding-left: 10px
+}
+.Search__Form-Input{
+    margin-bottom: 15px;
+}
+.Search__Form-Button{
+    text-align: center;
+}
+

@@ -1,0 +1,15 @@
+.Layout-Admin__main{
+    height: calc(100vh - 70px);
+    top: 70px;
+    width: 100%;
+}
+
+.Layout-Admin__content{
+    width: 100%;
+    padding: 25px;
+}
+
+.LayoutDefault__logo--fold{
+    width: 80px;
+}
+
