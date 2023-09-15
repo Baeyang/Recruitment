@@ -31,7 +31,6 @@ function App() {
           <Route path='search' element={<SearchResult></SearchResult>}></Route>
           <Route path='job/:id' element={<JobDetail></JobDetail>}></Route>
           <Route path='company/:id' element={<CompanyDetail></CompanyDetail>}></Route>
-          <Route path='test' element={<Test></Test>}></Route>
           
         </Route>
         <Route element={<PrivateRouter></PrivateRouter>}>
