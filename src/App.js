@@ -11,7 +11,6 @@ import LayoutAdmin from './components/LayoutAdmin';
 import SearchResult from './pages/SearchResult';
 import JobDetail from './pages/JobDetail';
 import CompanyDetail from './pages/CompanyDetail';
-import Test from './pages/test';
 import InfoCompany from './pages/InfoCompany';
 import JobManage from './pages/JobManage';
 import Job from './pages/JobManage/Job';
